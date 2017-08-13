@@ -1,0 +1,18 @@
+public class SuzukiNinja extends Bike {
+
+    public void wheels() { //First implement all abstract methods from abstract class.
+        System.out.println("My bike's wheels are classified information");
+    }
+
+    public void engine() {
+        System.out.println("My bike's engine is a classified state of the art technology");
+    }
+
+    public static void main (String [] args){
+        SuzukiNinja ninjabike = new SuzukiNinja();
+        
+        ninjabike.engine();
+        ninjabike.seat();
+        ninjabike.handle();
+        ninjabike.wheels();
+    }  
