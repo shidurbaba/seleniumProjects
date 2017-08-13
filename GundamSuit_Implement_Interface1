@@ -1,0 +1,25 @@
+public class GundamSuit implements Interfacec1 {
+
+    public void engine() {
+        System.out.println("My engine is made in Japan");
+    }
+
+    public void wheels() {
+        System.out.println("I have legs not wheels");
+    }
+
+    public void seats() {
+        System.out.println("My seat is fused to my butt");
+    }
+
+    public void handle() {
+        System.out.println("My handles are giant hands");
+    }
+
+    public static void main(String[] args) {
+        GundamSuit gx008Fighter = new GundamSuit();
+        gx008Fighter.handle();
+        gx008Fighter.engine();
+        gx008Fighter.seats();
+        gx008Fighter.wheels();
+    }
