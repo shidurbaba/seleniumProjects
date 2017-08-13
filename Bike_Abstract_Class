@@ -1,0 +1,25 @@
+public abstract class Bike {
+
+    public void price() {
+        System.out.println("My bike is expensive");
+
+    }
+
+    public void handle() {
+        System.out.println("My bike have strudy handles");
+    }
+
+    public void seat() {
+        System.out.println("My bike have comfortable seat");
+
+    }
+
+    // public void engine(); 
+    public abstract void wheels();
+    public abstract void engine();
+    public static void main(String[] args) {
+     //   Bike suzuki = new Bike();
+     SuzukiNinja overpricedBike = new SuzukiNinja(); 
+        
+    }
+}
