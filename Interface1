@@ -1,0 +1,23 @@
+public interface Interfacec1 {
+
+//    public static SuzukiNinja SuzukiNinja();
+
+    public void engine();
+
+    public void wheels();
+
+    public void seats();
+
+    public void handle();
+
+    //public static void main (String []args){
+     public static void main(String[] args){
+        GundamSuit suit1 = new GundamSuit();
+        suit1.engine();
+        suit1.handle();
+        suit1.seats();
+        suit1.wheels();
+        
+//        SuzukiNinja objbike1 = SuzukiNinja();
+     } 
+    //}
