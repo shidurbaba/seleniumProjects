@@ -1,0 +1,9 @@
+public class Encapsulation_Example2 extends Encapsulation_Example {
+
+    public static void main(String[] args) {
+        Encapsulation_Example2 obj2 = new Encapsulation_Example2();
+        obj2.setName("Dream Job");
+        String newJob = obj2.getName();
+        System.out.println(newJob);
+    }
+    }
