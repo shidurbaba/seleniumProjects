@@ -1,0 +1,16 @@
+public class Encapsulation_Example {
+
+    private String name = "Dream Job";
+
+    
+    public String getName(){
+        return name;
+    }
+    public void setName(String newName){
+        this.name=newName;
+    }
+    public static void main(String[]args){
+    Encapsulation_Example girl = new Encapsulation_Example();
+        System.out.println(girl.getName());
+    
+    }
